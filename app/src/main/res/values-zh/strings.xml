@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">云窗</string>
+    <string name="home_slogan">把常用网站，装进一扇窗</string>
+    <string name="quick_open_hint">输入网址，快速打开</string>
+    <string name="add_site">添加网站</string>
+    <string name="empty_title">这里还空着</string>
+    <string name="empty_subtitle">点击右下角「添加网站」\n把你常用的网站收进云窗</string>
+    <string name="open_with_yunchuang">用云窗打开</string>
+    <string name="editor_title_add">添加站点</string>
+    <string name="editor_title_edit">编辑站点</string>
+    <string name="editor_tap_tile_hint">点击图标可更换配色</string>
+    <string name="field_name">名称（可选）</string>
+    <string name="field_url">网址</string>
+    <string name="field_url_helper">不带协议时默认使用 https://</string>
+    <string name="section_display">显示模式</string>
+    <string name="mode_desktop">桌面版</string>
+    <string name="mode_mobile">手机版</string>
+    <string name="mode_custom">自定义</string>
+    <string name="field_custom_ua">自定义 User-Agent</string>
+    <string name="label_viewport">页面宽度</string>
+    <string name="label_exact_width">精确宽度（320 到 2560 px）</string>
+    <string name="switch_mobile_viewport_auto">手机版默认使用手机实际浏览器宽度</string>
+    <string name="switch_auto_fit">打开后自动缩放至适应屏幕</string>
+    <string name="field_custom_scale">初始缩放百分比（20 到 200）</string>
+    <string name="switch_inject">注入宽屏排版修正（推荐）</string>
+    <string name="section_pro">专业选项</string>
+    <string name="label_text_zoom">文字缩放</string>
+    <string name="switch_js">启用 JavaScript</string>
+    <string name="switch_images">自动加载图片（关闭可省流量）</string>
+    <string name="switch_third_cookies">允许第三方 Cookie</string>
+    <string name="switch_force_zoom">强制允许双指缩放（覆盖网页限制）</string>
+    <string name="switch_keep_screen_on">浏览时保持屏幕常亮</string>
+    <string name="dismiss_hint">松手后本次隐藏</string>
+    <string name="section_orientation">屏幕方向</string>
+    <string name="orient_follow">跟随系统</string>
+    <string name="orient_portrait">竖屏</string>
+    <string name="orient_landscape">横屏</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_delete_site">删除此站点</string>
+    <string name="switch_reload_on_change">修改设置后自动刷新页面</string>
+    <string name="section_fp_proxy">指纹与代理</string>
+    <string name="row_fingerprint">浏览器指纹</string>
+    <string name="fp_off">未启用</string>
+    <string name="section_proxy">代理服务器</string>
+    <string name="proxy_mode_system">跟随系统</string>
+    <string name="proxy_mode_direct">直连</string>
+    <string name="proxy_mode_custom">自定义代理</string>
+    <string name="proxy_type_http">HTTP</string>
+    <string name="proxy_type_socks">SOCKS5</string>
+    <string name="field_proxy_host">代理地址（IP 或域名）</string>
+    <string name="field_proxy_port">端口</string>
+    <string name="field_proxy_user">账号（可选）</string>
+    <string name="field_proxy_pass">密码（可选）</string>
+    <string name="proxy_note">直连会绕过系统代理设置；如果 Clash/V2Ray 使用 VPN/TUN 接管流量，应用无法绕过该 VPN。SOCKS5 账号密码鉴权 WebView 可能不支持。</string>
+    <string name="fp_title">浏览器指纹</string>
+    <string name="fp_enable">启用指纹伪装</string>
+    <string name="fp_enable_desc">在页面脚本运行前覆盖时区、平台、屏幕、硬件、WebGL 等特征</string>
+    <string name="fp_preset">身份预设</string>
+    <string name="fp_platform">平台 navigator.platform</string>
+    <string name="fp_timezone">时区</string>
+    <string name="fp_language">主语言 navigator.language</string>
+    <string name="fp_languages">语言列表（逗号分隔）</string>
+    <string name="fp_vendor">navigator.vendor</string>
+    <string name="fp_screen_w">屏幕宽度 px</string>
+    <string name="fp_screen_h">屏幕高度 px</string>
+    <string name="fp_dpr">设备像素比 DPR</string>
+    <string name="fp_cores">CPU 核心数</string>
+    <string name="fp_memory">内存 GB</string>
+    <string name="fp_gl_vendor">WebGL 厂商</string>
+    <string name="fp_gl_renderer">WebGL 渲染器</string>
+    <string name="fp_canvas_noise">Canvas 指纹加噪（抗追踪）</string>
+    <string name="fp_touch">触摸屏（maxTouchPoints=5）</string>
+    <string name="fp_custom_hint">修改参数后自动切换为自定义</string>
+    <string name="copied">已复制链接</string>
+    <string name="share_link">分享链接</string>
+    <string name="share_failed">无法分享</string>
+    <string name="reset_settings">恢复默认设置</string>
+    <string name="reset_message">重置此站点的显示、指纹和代理设置，保留名称与网址。保存后生效。</string>
+    <string name="cancel">取消</string>
+    <string name="reset">恢复默认</string>
+    <string name="site_name">站点名称</string>
+    <string name="url_required">请填写网址</string>
+    <string name="scale_range">范围 20 - 200</string>
+    <string name="proxy_invalid">请填写正确的代理地址和端口（1-65535）</string>
+    <string name="saved">已保存</string>
+    <string name="delete_site">删除站点</string>
+    <string name="delete">删除</string>
+    <string name="deleted">已删除</string>
+    <string name="enter_url">请输入网址</string>
+    <string name="shortcut_unsupported">当前桌面不支持固定快捷方式</string>
+    <string name="about">关于云窗</string>
+    <string name="ok">好的</string>
+    <string name="drag_reorder">长按拖动排序</string>
+    <string name="site_missing">站点不存在或已被删除</string>
+    <string name="site_deleted">站点已删除</string>
+    <string name="reload_to_apply">设置已保存，刷新后完全生效</string>
+    <string name="storage_denied">没有存储权限，无法下载</string>
+    <string name="certificate_error">证书异常</string>
+    <string name="continue_visit">继续访问</string>
+    <string name="proxy_unsupported">当前 WebView 不支持代理覆盖，请更新 Android System WebView</string>
+    <string name="toolbar_hidden">工具栏已隐藏，本次浏览不再显示</string>
+    <string name="switch_desktop">切换电脑版</string>
+    <string name="switch_mobile">切换手机版</string>
+    <string name="refit">重新适配</string>
+    <string name="copy_link">复制链接</string>
+    <string name="browser_login">浏览器登录</string>
+    <string name="save_site">保存站点</string>
+    <string name="site_settings">站点设置</string>
+    <string name="input_url">输入网址</string>
+    <string name="apply">应用</string>
+    <string name="direction_landscape">方向·横屏</string>
+    <string name="direction_portrait">方向·竖屏</string>
+    <string name="direction_follow">方向·跟随</string>
+    <string name="no_browser">没有可用的浏览器</string>
+    <string name="login_in_browser">在浏览器中登录</string>
+    <string name="browser_login_message">将在手机浏览器标签页重新打开网站，可使用该浏览器已有的 Google 登录状态。登录后请继续在该标签页浏览；登录状态不会同步回云窗内置网页，云窗的宽度、指纹和代理设置也不适用于该标签页。</string>
+    <string name="open_site">打开网站</string>
+    <string name="external_app_failed">无法打开外部应用</string>
+    <string name="saved_home">已保存到主页</string>
+    <string name="no_url_to_save">当前页面没有可保存的网址</string>
+    <string name="saved_yunchuang">已保存到云窗</string>
+    <string name="already_saved">该网址已保存到云窗</string>
+    <string name="open">打开</string>
+    <string name="unsupported_download">暂不支持下载此类型的文件</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login_required">需要登录</string>
+    <string name="login">登录</string>
+    <string name="home">主页</string>
+    <string name="back">后退</string>
+    <string name="forward">前进</string>
+    <string name="refresh">刷新</string>
+    <string name="more">更多</string>
+    <string name="collapse_toolbar">收起工具栏</string>
+    <string name="expand_toolbar">展开工具栏</string>
+    <string name="close">关闭</string>
+    <string name="auto_name_hint">首次打开网站后自动填写名称</string>
+    <string name="pin_top">置顶</string>
+    <string name="add_home">添加到桌面</string>
+    <string name="about_short">关于</string>
+    <string name="seed_bilibili">哔哩哔哩</string>
+    <string name="seed_youtube">YouTube</string>
+    <string name="android_tablet">Android 平板</string>
+    <string name="wechat_ua">微信内置</string>
+    <string name="proxy_direct_summary">直连 · 绕过系统代理</string>
+    <string name="proxy_system_summary">跟随系统代理</string>
+    <string name="error_page_title">页面暂时打不开</string>
+    <string name="retry">重新加载</string>
+    <string name="delete_message">确定删除「%1$s」吗？</string>
+    <string name="site_count">共 %1$d 个站点 · 长按卡片可管理</string>
+    <string name="shortcut_failed">添加失败：%1$s</string>
+    <string name="certificate_message">「%1$s」的安全证书无效（内网或老旧系统常见）。\n是否继续访问？</string>
+    <string name="proxy_failed">代理设置失败，已停止加载：%1$s</string>
+    <string name="mode_switched">已切换为%1$s</string>
+    <string name="download_started">开始下载：%1$s</string>
+    <string name="download_failed">下载失败：%1$s</string>
+    <string name="fp_enabled_summary">已启用 · %1$s</string>
+    <string name="about_message">云窗 v%1$s\n把常用网站装进一扇窗。\n\n· 点击卡片打开站点，每个站点可独立设置桌面版 / 手机版、页面宽度与缩放\n· 长按卡片：编辑、置顶、添加到桌面、删除\n· 「添加到桌面」可以把站点钉成独立图标，像一个 App 一样使用\n· 在其他应用里分享链接给云窗，即可快速打开\n· 网页里的悬浮工具栏会随滚动自动隐藏，也可以手动收起</string>
+    <string-array name="timezone_labels">
+        <item>UTC+8 北京/香港/新加坡</item>
+        <item>UTC+9 东京/首尔</item>
+        <item>UTC+7 曼谷/雅加达</item>
+        <item>UTC+5:30 印度</item>
+        <item>UTC+4 迪拜</item>
+        <item>UTC+3 莫斯科</item>
+        <item>UTC+1 柏林/巴黎</item>
+        <item>UTC+0 伦敦</item>
+        <item>UTC-3 圣保罗</item>
+        <item>UTC-5 纽约/多伦多</item>
+        <item>UTC-6 芝加哥</item>
+        <item>UTC-8 洛杉矶/西雅图</item>
+        <item>UTC+10 悉尼</item>
+    </string-array>
+</resources>

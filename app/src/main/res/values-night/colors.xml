@@ -1,0 +1,17 @@
+<resources>
+    <color name="bg">#0E0F14</color>
+    <color name="surface">#1A1B23</color>
+    <color name="textPrimary">#ECEDF3</color>
+    <color name="textSecondary">#99A1AF</color>
+    <color name="primary">#818CF8</color>
+    <color name="onPrimary">#14162B</color>
+    <color name="outline">#272A34</color>
+    <color name="chipBg">#242737</color>
+    <color name="secondaryContainer">#2E3150</color>
+    <color name="onSecondaryContainer">#C7D2FE</color>
+    <color name="danger">#FB7185</color>
+
+    <color name="auroraA">#266366F1</color>
+    <color name="auroraB">#1F22D3EE</color>
+    <color name="auroraC">#1CEC4899</color>
+</resources>

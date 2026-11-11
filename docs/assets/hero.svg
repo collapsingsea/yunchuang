@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Yunchuang — Give every website room to breathe">
+  <defs>
+    <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#182f6e"/><stop offset=".55" stop-color="#175e91"/><stop offset="1" stop-color="#2e8aa0"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#effaff" stop-opacity=".96"/><stop offset="1" stop-color="#e0f6ff" stop-opacity=".83"/></linearGradient>
+    <linearGradient id="tile" x2="1" y2="1"><stop stop-color="#527cf8"/><stop offset="1" stop-color="#22b5c7"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#ade6fb" stop-opacity=".28"/><stop offset="1" stop-color="#ade6fb" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#c2eeff" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1280" height="640" rx="28" fill="url(#sky)"/>
+  <rect width="1280" height="640" rx="28" fill="url(#grid)"/>
+  <ellipse cx="1010" cy="180" rx="420" ry="330" fill="url(#sun)"/>
+  <g fill="none" stroke="#a7e7ff" stroke-opacity=".2"><path d="M-40 535Q250 325 690 530T1350 450"/><path d="M-40 560Q250 350 690 555T1350 475"/><path d="M-40 585Q250 375 690 580T1350 500"/></g>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(70 66)"><rect width="58" height="48" rx="10" fill="none" stroke="#d9f6ff" stroke-width="3"/><path d="M0 15H58" stroke="#d9f6ff" stroke-width="3"/><circle cx="10" cy="8" r="2" fill="#d9f6ff"/><circle cx="18" cy="8" r="2" fill="#d9f6ff"/><path d="M15 37h29a7 7 0 0 0-4-13 10 10 0 0 0-18-2 8 8 0 0 0-7 15" fill="#d9f6ff"/></g>
+    <text x="145" y="103" fill="#eafaff" font-size="25" font-weight="600">Yunchuang / 云窗</text>
+    <text x="68" y="231" fill="#ffffff" font-size="62" font-weight="700" letter-spacing="-2">Give every website</text>
+    <text x="68" y="307" fill="#ffffff" font-size="62" font-weight="700" letter-spacing="-2">room to breathe.</text>
+    <text x="72" y="369" fill="#d0ebfa" font-size="22">Your websites. Your width. Your window.</text>
+    <text x="72" y="413" fill="#bbdeed" font-size="19">Desktop layouts, made comfortable on Android.</text>
+    <path d="M72 470h460" stroke="#d3f3ff" stroke-opacity=".3"/>
+    <text x="72" y="508" fill="#eafaff" font-size="17">Android 8+     ·     中文 / English     ·     GPLv3</text>
+    <g transform="translate(742 125) rotate(-6 211 180)">
+      <rect x="16" y="22" width="405" height="360" rx="20" fill="#092d58" opacity=".3"/>
+      <rect width="405" height="360" rx="20" fill="url(#glass)" stroke="#e2f9ff" stroke-opacity=".6"/>
+      <path d="M0 47H405" stroke="#9fbdcf"/>
+      <circle cx="23" cy="25" r="5" fill="#6790ae"/><circle cx="41" cy="25" r="5" fill="#8eb6cc"/><circle cx="59" cy="25" r="5" fill="#afcfdd"/>
+      <text x="90" y="30" fill="#315876" font-size="14">A wider view of your web</text>
+      <rect x="25" y="72" width="354" height="40" rx="10" fill="white" fill-opacity=".8"/>
+      <text x="43" y="98" fill="#55768d" font-size="14">example.com</text>
+      <rect x="25" y="133" width="74" height="196" rx="9" fill="#bed8e7"/>
+      <rect x="113" y="133" width="266" height="34" rx="7" fill="url(#tile)"/>
+      <g fill="#a9c9dc"><rect x="114" y="183" width="79" height="59" rx="7"/><rect x="207" y="183" width="79" height="59" rx="7"/><rect x="300" y="183" width="79" height="59" rx="7"/></g>
+      <g stroke="#abc8d9"><path d="M114 265h265M114 288h265M114 311h265"/><path d="M196 255v66M285 255v66"/></g>
+    </g>
+    <g transform="translate(873 440)">
+      <rect width="312" height="69" rx="16" fill="#123e69" stroke="#93d4ea" stroke-opacity=".45"/>
+      <text x="22" y="28" fill="#cce8f5" font-size="13">Page width</text><text x="206" y="29" fill="white" font-size="18" font-weight="600">1280 px</text>
+      <path d="M24 47h262" stroke="#447693" stroke-width="4" stroke-linecap="round"/><path d="M24 47h167" stroke="#8ce2ee" stroke-width="4" stroke-linecap="round"/><circle cx="191" cy="47" r="6" fill="#dcfbff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/browserRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF101116">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="top"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_web"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/videoContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF000000"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/dismissZone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:elevation="12dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <FrameLayout
+            android:id="@+id/dismissCircle"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_dismiss_circle">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_gravity="center"
+                android:importantForAccessibility="no"
+                android:src="@drawable/ic_close"
+                app:tint="#F2F3F7" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_pill"
+            android:paddingStart="12dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="4dp"
+            android:text="@string/dismiss_hint"
+            android:textColor="#F2F3F7"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_pill"
+        android:elevation="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <ImageButton
+            android:id="@+id/btnNavHome"
+            android:layout_width="44dp"
+            android:layout_height="46dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/home"
+            android:src="@drawable/ic_home"
+            app:tint="@color/barIcon" />
+
+        <ImageButton
+            android:id="@+id/btnNavBack"
+            android:layout_width="44dp"
+            android:layout_height="46dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/back"
+            android:src="@drawable/ic_back"
+            app:tint="@color/barIcon" />
+
+        <ImageButton
+            android:id="@+id/btnNavForward"
+            android:layout_width="44dp"
+            android:layout_height="46dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/forward"
+            android:src="@drawable/ic_forward"
+            app:tint="@color/barIcon" />
+
+        <ImageButton
+            android:id="@+id/btnNavRefresh"
+            android:layout_width="44dp"
+            android:layout_height="46dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/refresh"
+            android:src="@drawable/ic_refresh"
+            app:tint="@color/barIcon" />
+
+        <ImageButton
+            android:id="@+id/btnNavMore"
+            android:layout_width="44dp"
+            android:layout_height="46dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/more"
+            android:src="@drawable/ic_more_horiz"
+            app:tint="@color/barIcon" />
+
+        <ImageButton
+            android:id="@+id/btnNavHide"
+            android:layout_width="44dp"
+            android:layout_height="46dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/collapse_toolbar"
+            android:src="@drawable/ic_chevron_down"
+            app:tint="@color/barIcon" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnBubble"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="16dp"
+        android:alpha="0.66"
+        android:background="@drawable/bg_bubble"
+        android:contentDescription="@string/expand_toolbar"
+        android:elevation="14dp"
+        android:src="@drawable/ic_more_horiz"
+        android:visibility="gone"
+        app:tint="@color/barIcon" />
+</FrameLayout>

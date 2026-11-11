@@ -1,0 +1,25 @@
+<resources>
+    <color name="bg">#F5F6FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="textPrimary">#17181D</color>
+    <color name="textSecondary">#6B7280</color>
+    <color name="primary">#6366F1</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="outline">#E7E8EF</color>
+    <color name="chipBg">#EEF0FB</color>
+    <color name="secondaryContainer">#E0E7FF</color>
+    <color name="onSecondaryContainer">#3730A3</color>
+    <color name="danger">#E11D48</color>
+
+    <!-- 静态色：明暗主题一致 -->
+    <color name="barBg">#E61B1D28</color>
+    <color name="barIcon">#F2F3F7</color>
+    <color name="progressStart">#6366F1</color>
+    <color name="progressEnd">#22D3EE</color>
+    <color name="titleGradEnd">#22D3EE</color>
+
+    <!-- 首页极光背景 -->
+    <color name="auroraA">#2E6366F1</color>
+    <color name="auroraB">#2922D3EE</color>
+    <color name="auroraC">#24EC4899</color>
+</resources>

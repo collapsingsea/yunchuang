@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Yunchuang</string>
+    <string name="home_slogan">Your favorite websites, in their own window</string>
+    <string name="quick_open_hint">Enter a URL to open</string>
+    <string name="add_site">Add website</string>
+    <string name="empty_title">Your collection starts here</string>
+    <string name="empty_subtitle">Tap “Add website”\n to collect your favorite websites</string>
+    <string name="open_with_yunchuang">Open with Yunchuang</string>
+    <string name="editor_title_add">Add website</string>
+    <string name="editor_title_edit">Edit website</string>
+    <string name="editor_tap_tile_hint">Tap the icon to change its colors</string>
+    <string name="field_name">Name (optional)</string>
+    <string name="field_url">URL</string>
+    <string name="field_url_helper">https:// is added if no scheme is specified</string>
+    <string name="section_display">Display mode</string>
+    <string name="mode_desktop">Desktop</string>
+    <string name="mode_mobile">Mobile</string>
+    <string name="mode_custom">Custom</string>
+    <string name="field_custom_ua">Custom User-Agent</string>
+    <string name="label_viewport">Page width</string>
+    <string name="label_exact_width">Exact width (320–2560 px)</string>
+    <string name="switch_mobile_viewport_auto">Use the device viewport in mobile mode</string>
+    <string name="switch_auto_fit">Fit the page to the screen on opening</string>
+    <string name="field_custom_scale">Initial zoom percentage (20–200)</string>
+    <string name="switch_inject">Apply wide-page layout fixes (recommended)</string>
+    <string name="section_pro">Advanced options</string>
+    <string name="label_text_zoom">Text size</string>
+    <string name="switch_js">Enable JavaScript</string>
+    <string name="switch_images">Load images (turn off to save data)</string>
+    <string name="switch_third_cookies">Allow third-party cookies</string>
+    <string name="switch_force_zoom">Allow pinch to zoom on restricted pages</string>
+    <string name="switch_keep_screen_on">Keep the screen on while browsing</string>
+    <string name="dismiss_hint">Release to hide for this session</string>
+    <string name="section_orientation">Screen orientation</string>
+    <string name="orient_follow">Follow system</string>
+    <string name="orient_portrait">Portrait</string>
+    <string name="orient_landscape">Landscape</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_delete_site">Delete this website</string>
+    <string name="switch_reload_on_change">Reload automatically after settings change</string>
+    <string name="section_fp_proxy">Fingerprint and proxy</string>
+    <string name="row_fingerprint">Browser fingerprint</string>
+    <string name="fp_off">Off</string>
+    <string name="section_proxy">Proxy server</string>
+    <string name="proxy_mode_system">Follow system</string>
+    <string name="proxy_mode_direct">Direct</string>
+    <string name="proxy_mode_custom">Custom proxy</string>
+    <string name="proxy_type_http">HTTP</string>
+    <string name="proxy_type_socks">SOCKS5</string>
+    <string name="field_proxy_host">Proxy host (IP or domain)</string>
+    <string name="field_proxy_port">Port</string>
+    <string name="field_proxy_user">Username (optional)</string>
+    <string name="field_proxy_pass">Password (optional)</string>
+    <string name="proxy_note">Direct mode bypasses the system HTTP proxy, but cannot bypass a VPN/TUN connection such as Clash or V2Ray. WebView may not support SOCKS5 authentication.</string>
+    <string name="fp_title">Browser fingerprint</string>
+    <string name="fp_enable">Enable fingerprint overrides</string>
+    <string name="fp_enable_desc">Override timezone, platform, screen, hardware and WebGL properties before page scripts run</string>
+    <string name="fp_preset">Identity preset</string>
+    <string name="fp_platform">Platform (navigator.platform)</string>
+    <string name="fp_timezone">Timezone</string>
+    <string name="fp_language">Primary language (navigator.language)</string>
+    <string name="fp_languages">Languages (comma-separated)</string>
+    <string name="fp_vendor">navigator.vendor</string>
+    <string name="fp_screen_w">Screen width (px)</string>
+    <string name="fp_screen_h">Screen height (px)</string>
+    <string name="fp_dpr">Device pixel ratio (DPR)</string>
+    <string name="fp_cores">CPU cores</string>
+    <string name="fp_memory">Memory (GB)</string>
+    <string name="fp_gl_vendor">WebGL vendor</string>
+    <string name="fp_gl_renderer">WebGL renderer</string>
+    <string name="fp_canvas_noise">Add noise to the Canvas fingerprint</string>
+    <string name="fp_touch">Touchscreen (maxTouchPoints=5)</string>
+    <string name="fp_custom_hint">Editing a parameter switches the preset to Custom</string>
+    <string name="copied">Link copied</string>
+    <string name="share_link">Share link</string>
+    <string name="share_failed">Unable to share</string>
+    <string name="reset_settings">Reset settings</string>
+    <string name="reset_message">Reset display, fingerprint and proxy settings. Keep the name and URL. Save to apply.</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset">Reset</string>
+    <string name="site_name">Website name</string>
+    <string name="url_required">Enter a URL</string>
+    <string name="scale_range">Enter a value from 20 to 200</string>
+    <string name="proxy_invalid">Enter a valid proxy host and port (1–65535)</string>
+    <string name="saved">Saved</string>
+    <string name="delete_site">Delete website</string>
+    <string name="delete">Delete</string>
+    <string name="deleted">Deleted</string>
+    <string name="enter_url">Enter a URL</string>
+    <string name="shortcut_unsupported">Your launcher does not support pinned shortcuts</string>
+    <string name="about">About Yunchuang</string>
+    <string name="ok">OK</string>
+    <string name="drag_reorder">Touch and hold to reorder</string>
+    <string name="site_missing">This website was not found or has been deleted</string>
+    <string name="site_deleted">Website deleted</string>
+    <string name="reload_to_apply">Settings saved. Reload to apply all changes</string>
+    <string name="storage_denied">Storage permission is required to download</string>
+    <string name="certificate_error">Certificate error</string>
+    <string name="continue_visit">Continue</string>
+    <string name="proxy_unsupported">Update Android System WebView to use proxy overrides</string>
+    <string name="toolbar_hidden">Toolbar hidden for this browsing session</string>
+    <string name="switch_desktop">Desktop mode</string>
+    <string name="switch_mobile">Mobile mode</string>
+    <string name="refit">Fit to screen</string>
+    <string name="copy_link">Copy link</string>
+    <string name="browser_login">Browser sign-in</string>
+    <string name="save_site">Save website</string>
+    <string name="site_settings">Site settings</string>
+    <string name="input_url">Enter URL</string>
+    <string name="apply">Apply</string>
+    <string name="direction_landscape">Landscape</string>
+    <string name="direction_portrait">Portrait</string>
+    <string name="direction_follow">Auto-rotate</string>
+    <string name="no_browser">No browser available</string>
+    <string name="login_in_browser">Sign in using your browser</string>
+    <string name="browser_login_message">The website will open in a browser tab using that browser’s existing sign-in session, including Google. Continue browsing in that tab after signing in. The session will not sync back to Yunchuang. Page width, fingerprint and proxy settings do not apply to the browser tab.</string>
+    <string name="open_site">Open website</string>
+    <string name="external_app_failed">Unable to open the external app</string>
+    <string name="saved_home">Saved to home</string>
+    <string name="no_url_to_save">This page has no URL to save</string>
+    <string name="saved_yunchuang">Saved to Yunchuang</string>
+    <string name="already_saved">This URL is already saved in Yunchuang</string>
+    <string name="open">Open</string>
+    <string name="unsupported_download">This download type is not supported</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_required">Sign-in required</string>
+    <string name="login">Sign in</string>
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="refresh">Reload</string>
+    <string name="more">More</string>
+    <string name="collapse_toolbar">Collapse toolbar</string>
+    <string name="expand_toolbar">Expand toolbar</string>
+    <string name="close">Close</string>
+    <string name="auto_name_hint">The page title is used after the first visit</string>
+    <string name="pin_top">Pin to top</string>
+    <string name="add_home">Add to home screen</string>
+    <string name="about_short">About</string>
+    <string name="seed_bilibili">Bilibili</string>
+    <string name="seed_youtube">YouTube</string>
+    <string name="android_tablet">Android tablet</string>
+    <string name="wechat_ua">WeChat browser</string>
+    <string name="proxy_direct_summary">Direct · bypass system proxy</string>
+    <string name="proxy_system_summary">Follow system proxy</string>
+    <string name="error_page_title">This page could not be loaded</string>
+    <string name="retry">Try again</string>
+    <string name="delete_message">Delete “%1$s”?</string>
+    <string name="site_count">%1$d websites · Touch and hold to manage</string>
+    <string name="shortcut_failed">Unable to add shortcut: %1$s</string>
+    <string name="certificate_message">The security certificate for “%1$s” is invalid.\nContinue anyway?</string>
+    <string name="proxy_failed">Proxy setup failed. Loading stopped: %1$s</string>
+    <string name="mode_switched">Switched to %1$s</string>
+    <string name="download_started">Downloading: %1$s</string>
+    <string name="download_failed">Download failed: %1$s</string>
+    <string name="fp_enabled_summary">On · %1$s</string>
+    <string name="about_message">Yunchuang v%1$s\nYour favorite websites, in their own window.\n\n· Open any website with its own display mode, page width and zoom.\n· Touch and hold a card to edit, pin, add a shortcut or delete it.\n· Add websites to your home screen for app-like access.\n· Share a link from another app to open it in Yunchuang.\n· The floating toolbar hides as you scroll and can also be collapsed manually.</string>
+    <string-array name="timezone_labels">
+        <item>UTC+8 Beijing / Hong Kong / Singapore</item>
+        <item>UTC+9 Tokyo / Seoul</item>
+        <item>UTC+7 Bangkok / Jakarta</item>
+        <item>UTC+5:30 India</item>
+        <item>UTC+4 Dubai</item>
+        <item>UTC+3 Moscow</item>
+        <item>UTC+1 Berlin / Paris</item>
+        <item>UTC+0 London</item>
+        <item>UTC-3 São Paulo</item>
+        <item>UTC-5 New York / Toronto</item>
+        <item>UTC-6 Chicago</item>
+        <item>UTC-8 Los Angeles / Seattle</item>
+        <item>UTC+10 Sydney</item>
+    </string-array>
+</resources>
